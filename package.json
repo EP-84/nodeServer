@@ -1,0 +1,37 @@
+{
+  "name": "node_server",
+  "version": "1.0.0",
+  "description": "My First NodeJS Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "build": "webpack --mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EP-84/nodeServer.git"
+  },
+  "keywords": [
+    "node",
+    "server"
+  ],
+  "author": "Edo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EP-84/nodeServer/issues"
+  },
+  "homepage": "https://github.com/EP-84/nodeServer#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
